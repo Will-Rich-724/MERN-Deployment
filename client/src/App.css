@@ -1,0 +1,157 @@
+.App {
+  width: 1000px;
+  height: auto;
+  margin: 0 auto;
+  padding: 0;
+  padding-bottom: 100px;
+  background-color: #f39c0e;
+}
+
+.header {
+  background-color: #783f04;
+  height: 50px;
+}
+
+.header h1{
+  color: white;
+  padding: 50px 0px 0px 400px;
+  display: inline;
+}
+
+.header button{
+  display: inline;
+  margin-left: 250px;
+  background-color: #0d5796;
+  color: white;
+  box-shadow: 2px 2px black;
+  font-size: 16pt;
+}
+
+.blue-btn{
+  background-color:#0d5796;
+  color: white;
+  margin: 5px;
+  box-shadow: 2px 2px black;
+  font-size: 16pt;
+
+}
+
+.red-btn{
+  background-color: #cf2a27;
+  color: white;
+  margin-left: 25px;
+  box-shadow: 2px 2px black;
+  font-size: 16pt;
+}
+
+.onepirate{
+  width: 800px;
+  height: 150px;
+  background-color: white;
+  margin-top: 50px;
+  margin-left: 100px;
+  border: 3px solid black;
+}
+
+.onepirate img {
+  width: 100px;
+  height: 100px;
+  padding-left: 25px;
+  padding-top: 25px;
+  display: inline;
+  margin-right: 50px;
+}
+
+.pirateinfo{
+  display: inline-block;
+  vertical-align: top;
+  margin-left: 150px;
+}
+
+.pirateinfo h2{
+  font-size: 24pt;
+  text-align: center;
+}
+
+.input-one {
+  width: 500px;
+  margin-Left: 25px;
+  margin-top: 25px;
+  display:inline-block;
+  font-size: 20pt;
+}
+
+.input-two {
+  display: inline-block;
+  width: 300px;
+  margin-top: 25px;
+  font-size: 20pt;
+  vertical-align: top;
+  margin-left: 150px;
+}
+
+.input-two button{
+  font-size: 16pt;
+}
+
+form .blue-btn {
+  margin-left: 750px;
+}
+
+.single-left {
+  margin-top: 25px;
+  margin-left:25px;
+  width: 460px;
+  display: inline-block;
+  vertical-align: top;
+}
+.single-left img{
+  width: 460px;
+}
+
+.single-left h2{
+  font-size: 20pt;
+  text-align: center;
+}
+
+.single-right {
+  margin-top: 25px;
+  margin-left:25px;
+  width: 460px;
+  height:400px;
+  display: inline-block;
+  background-color: white;
+  border: 3px solid black;
+}
+
+.single-right h2 {
+  font-size: 20pt;
+  text-align: center;
+}
+
+.single-right p {
+  margin-left: 15px;
+  font-size: 14pt;
+  display:inline;
+}
+
+.single-right button {
+  display: inline;
+  margin-left: 25px;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
