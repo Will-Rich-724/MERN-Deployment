@@ -18,7 +18,7 @@ const PirateList = (props) => {
     return (
         <div>
             <div className="header">
-                <h1>Pirate Crew</h1>
+                <h1>Meet the Crew</h1>
                 <Link to="/pirate/new"><button>Add Pirate</button></Link>
             </div>
             <div>
